@@ -16,7 +16,7 @@ public class Lista {
         else
             for (Paqueteria ra:serviEntrega)
                 if (ra.getTracking()==r.getTracking())
-                    throw new Exception("Paquete ya existe, ponte a trabajar");
+                    throw new Exception( "Paquete ya existe, ponte a trabajar ");
         serviEntrega.add(r);
 
     }
